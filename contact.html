@@ -10,7 +10,8 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstyle.css">
+
 	<Title>Jeff Knowles | Contact</Title>
 </head>
 
@@ -25,9 +26,9 @@
     	</div>
 
     	<ul class="nav navbar-nav navbar-right">
-     		<li class="active"><a href="index.html">About</a></li>
+     		<li><a href="index.html">About</a></li>
      		<li><a href="portfolio.html">Portfolio</a></li>
-     		<li><a href="contact.html">Contact</a></li>
+     		<li class="active"><a href="contact.html">Contact</a></li>
     	</ul>
  		</div>
 		</nav>
@@ -35,59 +36,45 @@
 
 	</header>
 
-	<div class="container">
+	<div row>
 
-		<section class="content">
+	<div class="form-group">
 
-			<h2>Contact</h2>
+		<form action="mailto:knowles.jeffrey@gmail.com?subject=Portfolio_Website_Form_Submission" method="post" enctype="text/plain">
 
-			<hr>
+  		<label for="firstname">First Name:</label>
+  		<input type="text" class="form-control" id="firstname">
 
-			<form action="mailto:knowles.jeffrey@gmail.com?subject=Portfolio_Website_Form_Submission" method="post" enctype="text/plain">
-		
-			First Name:<br>
-			<input type="text" name="First-Name" id="First-Name" value="" size=60 required placeholder="Enter Your First Name"><br>
+  		<label for="lastname">Last Name:</label>
+  		<input type="text" class="form-control" id="lastname">
 
-			Last Name:<br>
-			<input type="text" name="Last-Name" id="Last-Name" value="" size=60 required placeholder="Enter Your Last Name" /><br>
+  		<label for="email">Email Address:</label>
+  		<input type="email" class="form-control" id="email">
 
-			Email Address:<br>
-			 <input type="text" name="E-mail" id="E-mail" value="" size=60 required placeholder="Enter Your Email Address" /><br>
+  		<label for="comment">Comment:</label>
+  		<textarea class="form-control" rows="10" id="comment"></textarea>
 
-			 <br>
+  		<br>
 
-			 * Note:  First Name, Last Name, and Email address are required<br><br>
-
-			Message:<br><br>
-
-			<textarea name="Message" id="Message"></textarea><br>
-
-			<input type="Submit" value="Send Email">
-
-			</form>
-
-		</section>
-
-		<section class="connect">
-
-				<h2>Connect With Me</h2><br>
-
-				<a href="https://github.com/JTK0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/Github.png" ALT="GitHub">
-
-				<a href="https://www.linkedin.com/in/jeffreyknowles" target="_blank" style="text-decoration: none" ><IMG SRC="assets/images/LinkedIn.png" ALT="LinkedIn">
-
-				<a href="http://stackoverflow.com/users/7347089/jtk0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/StackOverflow.png" ALT="StackOverflow"></IMG></a>
-
-		</section>
+  		<button type="submit" class="btn btn-default">Submit</button>
 
 	</div>
+
 	
 	<footer>
 
-		&copy; Jeff Knowles - 2017
-	
+		<div class="navbar navbar-default navbar-fixed-bottom">
+
+     	<p class="navbar-text pull-center">© 2017 - Jeff Knowles</p>
+
+    	</div>
+
 	</footer>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </html>
