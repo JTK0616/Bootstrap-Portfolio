@@ -2,9 +2,15 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="assets/css/reset.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/mystyle.css">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- <link rel="stylesheet" type="text/css" href="assets/css/mystyle.css"> -->
 	<Title>Jeff Knowles | Biography</Title>
 </head>
 
@@ -12,15 +18,20 @@
 
 	<header>
 		
-		<section class="navigation">
-			<a href="index.html" STYLE="text-decoration: none">About</a> |
-			<a href="portfolio.html" STYLE="text-decoration: none">Portfolio</a> |
-			<a href="contact.html" STYLE="text-decoration: none">Contact</a>
-		</section>
+		<nav class="navbar navbar-default">
+ 		<div class="container-fluid">
+   		<div class="navbar-header">
+      		<a class="navbar-brand" href="index.html">Jeff Knowles | Website Portfolio</a>
+    	</div>
 
-		<div id="logo">
-			<h1> Jeff Knowles </h1>
-		</div>
+    	<ul class="nav navbar-nav navbar-right">
+     		<li class="active"><a href="index.html">About</a></li>
+     		<li><a href="portfolio.html">Portfolio</a></li>
+     		<li><a href="contact.html">Contact</a></li>
+    	</ul>
+ 		</div>
+		</nav>
+
 
 	</header>
 
@@ -32,8 +43,8 @@
 
 			<hr>
 
-			<img src="assets/images/Jeff_Knowles.jpg" alt="Jeff Knowles" id="bio_image">
-	
+			<img src="assets/images/Jeff_Knowles.jpg" alt="Jeff Knowles" class="img-rounded">
+
 			<p>As an owner of Florida Indian River Groves, the leading provider of fresh fruit for school fundraisers, Jeff Knowles has assisted thousands of schools in raising millions of dollars for travel and general operating expenses.</p>
 
 			<p>Jeff manages the day-to-day operations and is actively involved in the company's new, e-commerce initiatives.  As part of his ongoing committment to these initiatives, Jeff attends the University of Central Florida's Coding Bootcamp, where he is working to become a full stack web developer.</p>
@@ -48,13 +59,23 @@
 
 			<section class="connect">
 
-				<h2>Connect With Me</h2><br>
+			<div class="panel panel-default">
 
-				<a href="https://github.com/JTK0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/Github.png" ALT="GitHub"></a>
+  				<div class="panel-body">
+    				Connect with Me
 
-				<a href="https://www.linkedin.com/in/jeffreyknowles" target="_blank" style="text-decoration: none" ><IMG SRC="assets/images/LinkedIn.png" ALT="LinkedIn"></a>
+    				<br>
 
-				<a href="http://stackoverflow.com/users/7347089/jtk0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/StackOverflow.png" ALT="StackOverflow"></a>
+    				<a href="https://github.com/JTK0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/Github.png" ALT="GitHub"></a>
+
+					<a href="https://www.linkedin.com/in/jeffreyknowles" target="_blank" style="text-decoration: none" ><IMG SRC="assets/images/LinkedIn.png" ALT="LinkedIn"></a>
+
+					<a href="http://stackoverflow.com/users/7347089/jtk0616" target="_blank" style="text-decoration: none"><IMG SRC="assets/images/StackOverflow.png" ALT="StackOverflow"></a>
+
+  				</div>
+			</div>
+
+				
 
 			</section>
 
@@ -62,10 +83,20 @@
 
 	<footer>
 
-		&copy; Jeff Knowles - 2017
+	<div class="navbar navbar-default navbar-fixed-bottom">
+    	<div class="container">
+     		 <p class="navbar-text pull-center">© 2017 - Jeff Knowles
+      </p>
+
+    	</div>
+	</div>
 
 	</footer>
 
 </body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </html>
