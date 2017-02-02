@@ -1,8 +1,76 @@
 .form-group {
-	margin: 5%;
+	margin: 10%;
 	width: 75%;
 }
 
-footer {
-	background-color: red;
-	}
+body {
+	background-image:url('../images/confectionary.png');
+	padding: 0px;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+	font: #777777;
+	font-size: 16px;
+	margin-bottom: 80px;
+}
+
+.connect {
+	padding-left: 20%;
+}
+
+.navbar {
+	min-height: 80px;
+}
+
+.navbar-brand {
+	padding: 0 15px;
+	height: 80px; 
+	line-height: 80px; 
+	background-color: #4aaaa5;
+}
+
+.navbar-brand h3 {
+	color: #FFFFFF;
+}
+
+.about {
+	background-color: #FFFFFF;
+}
+
+.about h2 {
+	color: #4aaaa5;
+}
+
+.panel-body h2 {
+	color:#4aaaa5;
+}
+
+.bio img {
+	padding-right: 5%;
+}
+
+.folioimages {
+	position: relative;
+	background-color:#FFFFFF;
+	/*padding-right: 5%;*/
+	z-index: 2
+}
+
+.folioimages h4 {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+	width: 225px;
+	height: 50px;
+	text-align: center;
+	padding: 10px;
+	z-index: 3;
+	margin-top: -70px;
+
+}
+
+.leftcolumn {
+	padding-right: 5px;
+}
+
+.nextrow {
+	padding-bottom: 15px;
+}
