@@ -1,6 +1,7 @@
 .form-group {
-	margin: 10%;
-	width: 75%;
+	padding-left: 5%;
+	margin-left: 10px;
+	width: 80%;
 }
 
 body {
@@ -73,4 +74,19 @@ body {
 
 .nextrow {
 	padding-bottom: 15px;
+}
+
+.contactform {
+	background-color: #FFFFFF;
+}
+
+.social {
+	text-align: center;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	line-height: 70px;
+	width:100%;
 }
